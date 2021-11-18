@@ -4,26 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1700E5FF"
     tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/points"
+        android:id="@+id/answer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Druga"
+        android:text="You will lose points if you click on show answer."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/back"
+        android:id="@+id/showCheat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
+        android:background="#FDCFFD"
+        android:onClick="showCorrectAnswer"
+        android:text="Show answer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/points"
-        android:onClick="returnMessage"/>
+        app:layout_constraintTop_toBottomOf="@+id/answer" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

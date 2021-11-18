@@ -2,6 +2,6 @@
     <string name="app_name">QuizApp</string>
 
     <string name="question1">Was relative theory created by Issac Newton?</string>
-    <string name="question2">Can a fire have a shadow?</string>
+    <string name="question2">Can a lion fly?</string>
     <string name="question3">Can air make a shadow?</string>
 </resources>
